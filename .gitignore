@@ -1,0 +1,23 @@
+
+# Environment variables
+.env
+.env.*
+
+# Allow example configuration
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.idea/
+
+# Django generated files
+staticfiles/
+media/
